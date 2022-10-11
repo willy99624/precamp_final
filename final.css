@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_form {
+    width: 540px;
+    height: 960px;
+    border: 1px solid #AACDFF;
+    border-radius: 20px;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #0068FF;
+    width: 380px;
+}
+
+.input {
+    width: 380px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.input::placeholder {
+    color: gray;
+    font-size: 15px;
+}
+
+.tel_form {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tel {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.authentication_form {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.authentication_num, .time {
+    color: #0068FF;
+    font-size: 18px;
+}
+
+.send_num, .authentication_check {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+.region {
+    width: 380px;
+    height: 60px;
+    color: gray;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.gender_form {
+    width: 380px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender {
+    text-align: center;
+}
+
+.signup {
+    width: 380px;
+    height: 75px;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}

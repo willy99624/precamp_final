@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>코드캠프 회원가입</title>
+    <link href="final.css" rel="stylesheet">
+    <script src="final.js"></script>
+</head>
+<body>
+    <div class="signup_form">
+        <h2>코드캠프 회원가입</h2>
+        <br>
+        <input class="input" placeholder="이메일을 입력해 주세요.">
+        <br>
+        <input class="input" placeholder="이름을 입력해 주세요.">
+        <br>
+        <input type="password" class="input" placeholder="비밀번호를 입력해 주세요.">
+        <br>
+        <input type="password" class="input" placeholder="비밀번호를 다시 입력해 주세요.">
+        <br>
+        <div class="tel_form">
+            <input class="tel"> - 
+            <input class="tel"> - 
+            <input class="tel">
+        </div>
+        <br>
+        <div class="authentication_form">
+            <div class="authentication_num">000000</div>
+            <button class="send_num" disabled="true">인증번호 전송</button>
+        </div>
+        <br>
+        <div class="authentication_form">
+            <div class="time">3:00</div>
+            <button class="authentication_check" disabled="true">인증 확인</button>
+        </div>
+        <br>
+        <div>
+            <select class="region">
+                <option disabled="true" selected="true">지역을 선택하세요.</option>
+                <option>서울</option>
+                <option>인천</option>
+                <option>부산</option>
+            </select>
+        </div>
+        <br>
+        <div class="gender_form">
+            <div class="gender">
+                <input type="radio" name="gender"> 여성
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="gender">
+                <input type="radio" name="gender"> 남성
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <button class="signup" disabled="true">가입하기</button>
+        </div>
+    </div>
+</body>
+</html>
